@@ -21,7 +21,7 @@ Welcome to my digital playground! I'm a passionate Test Automation Engineer with
 ## Let's Connect 🤝
 
 - **GitHub:** [@AutoQAce](https://github.com/AutoQAce)
-- **LinkedIn:** [www.linkedin.com/in/bhavya-mandaliya]
+- **LinkedIn:**[@Bhavya Mandaliya](www.linkedin.com/in/bhavya-mandaliya)
 
 I'm open to collaborating on projects, sharing knowledge, and discussing the exciting future of AI in finance. Feel free to reach out! 😄
 
