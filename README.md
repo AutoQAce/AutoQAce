@@ -1,6 +1,6 @@
 <div align="center">
 
-![banner](https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:16213e&height=200&section=header&text=Bhavya%20Mandaliya&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=AI%20Agent%20Engineer%20%7C%20Financial%20Services%20%7C%20Singapore&descAlignY=58&descSize=18)
+![banner](https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:16213e&height=200&section=header&text=Bhavya%20Mandaliya&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=AI%20Agent%20Engineer&descAlignY=52)
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/bhavya-mandaliya/)
 [![GitHub followers](https://img.shields.io/github/followers/AutoQAce?style=for-the-badge&logo=github&color=181717)](https://github.com/AutoQAce)
@@ -11,76 +11,74 @@
 
 ## About Me
 
-Software Automation Engineer at **UBS** with 10 years of experience architecting and building automation frameworks across complex trading and banking platforms.
+I am Bhavya Mandaliya — a Software Automation Engineer at UBS with 10 years of experience designing and building automation frameworks across complex trading and banking platforms. I specialize in reliable, production-grade automation for regulated financial services environments.
 
-I'm now applying that domain depth to **AI Agent Engineering** — designing agentic systems that solve real operational problems in financial services, not just demos.
-
-My background gives me something most agent engineers don't have: I know exactly where these systems fail in production, what financial platforms actually need, and how to design agents that work reliably inside complex enterprise environments.
+I'm currently focused on AI Agent Engineering: building agentic systems that solve operational problems at scale (not just research demos). My domain experience gives me a practical advantage: I know where agent systems tend to fail in production, how to design around platform operational constraints, and how to deliver solutions that comply with regulatory and risk requirements.
 
 ---
 
 ## What I'm Building
 
-**Environment Triage Agent** *(Active POC)*
+### Environment Triage Agent (Active POC)
+A multi-agent system that automates test environment management across a 900+ component UAT trading platform. Key capabilities:
 
-A multi-agent system that automates test environment management across a 900+ component UAT trading platform. It ingests QA-reported environment behavior, runs Splunk log analysis, identifies the responsible service or component, and routes the issue to the correct team — replacing a manual process that previously required a dedicated environment management team.
+- Ingest QA-reported environment behavior (tickets, structured reports).
+- Run automated Splunk log analysis and correlate across services.
+- Identify probable root causes (configuration drift, service failures, dependency issues).
+- Propose remediation steps and, where safe, trigger automation to repair or rebuild environments (e.g., restart services, re-run infra provisioning, apply configuration fixes).
+- Produce audit-friendly runbooks and justification for each action to satisfy governance.
 
-`LangGraph` `LangChain` `Splunk` `Python`
+Goal: reduce environment triage time, lower human toil, and increase test reliability while preserving auditability and operational controls.
 
-**Agentic Architecture Patterns**
+### Agentic Architecture Patterns
+Exploring and implementing production-relevant agent patterns with hands-on prototypes and tests:
 
-Working through 17+ production-relevant agentic patterns — Reflection, Tool Use, ReAct, PEV (Plan-Execute-Verify), Blackboard, Meta-Controller, Memory Systems — with hands-on implementations at each stage.
+- Reflection and self-evaluation
+- Tool use & secured tool access
+- ReAct (Reason + Act)
+- PEV (Plan → Execute → Verify)
+- Blackboard & shared-memory coordination
+- Meta-controller / orchestrator patterns
+- Memory systems (short- and long-term)
+
+Each pattern is tested against failure modes we see in financial services (noisy logs, partial outages, flaky dependencies, sensitive data handling).
 
 ---
 
 ## Technical Skills
 
-**Agent Engineering**
+### Agent Engineering & LLM Tooling
+[LangChain](https://langchain.com) • [LangGraph](https://langgraph-ai.github.io/langgraph/) • OpenAI API • Python
 
-[![LangChain](https://img.shields.io/badge/-LangChain-b08433?style=flat-square)](https://langchain.com)
-[![LangGraph](https://img.shields.io/badge/-LangGraph-20232a?style=flat-square)](https://langchain-ai.github.io/langgraph/)
-[![OpenAI API](https://img.shields.io/badge/-OpenAI_API-412991?style=flat-square&logo=openai)](https://openai.com)
-[![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python)](https://www.python.org/)
+### Test Automation & Quality Engineering
+Selenium • Pytest • RestAssured • WebdriverIO • JUnit • TestNG • JMeter • Postman
 
-**Test Automation & Quality Engineering**
+### Infrastructure & DevOps
+Azure DevOps • Docker • Jenkins • Azure
 
-[![Selenium](https://img.shields.io/badge/-Selenium-43B02A?style=flat-square&logo=Selenium)](https://www.selenium.dev)
-[![Pytest](https://img.shields.io/badge/-Pytest-0A9EDD?style=flat-square&logo=pytest)](https://docs.pytest.org)
-[![RestAssured](https://img.shields.io/badge/-RestAssured-brightgreen?style=flat-square)](https://rest-assured.io/)
-[![WebdriverIO](https://img.shields.io/badge/-WebdriverIO-EA5906?style=flat-square&logo=webdriverio)](https://webdriver.io/)
-[![JUnit](https://img.shields.io/badge/-JUnit-25A162?style=flat-square&logo=JUnit5)](https://junit.org/junit5/)
-[![TestNG](https://img.shields.io/badge/-TestNG-blue?style=flat-square)](https://testng.org/doc/)
-[![JMeter](https://img.shields.io/badge/-JMeter-D22128?style=flat-square&logo=jmeter)](https://jmeter.apache.org/)
-[![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman)](https://www.postman.com/)
-
-**Infrastructure & DevOps**
-
-[![Azure DevOps](https://img.shields.io/badge/-Azure%20DevOps-0078D7?style=flat-square&logo=azure-devops)](https://azure.microsoft.com/en-us/services/devops/)
-[![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker)](https://www.docker.com/)
-[![Jenkins](https://img.shields.io/badge/-Jenkins-D24939?style=flat-square&logo=jenkins)](https://www.jenkins.io/)
-[![Azure](https://img.shields.io/badge/-Azure-0089D6?style=flat-square&logo=microsoft-azure)](https://azure.microsoft.com/)
-
-**Languages**
-
-[![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python)](https://www.python.org/)
-[![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java)](https://www.java.com/)
-[![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript)](https://developer.mozilla.org)
+### Languages
+Python • Java • JavaScript
 
 ---
 
 ## Why Financial Services + Agent Engineering
+Financial services engineering comes with constraints that many ML/agent projects ignore: strong compliance requirements, strict change and access controls, complex environment topologies, and high operational risk if automation behaves unexpectedly.
 
-10 years inside trading and banking platforms means I understand the constraints that matter in this domain — regulatory requirements, environment complexity, deployment risk, and the cost of quality failures in high-stakes systems.
+My background of 10 years inside trading and banking platforms means I can design agent systems that are robust to real failure modes, auditable for regulators, and practical for operations teams to adopt. I build with production constraints in mind — not just to get a notebook demo working.
 
-Most agent engineers can build a system that works in a notebook. Fewer can design one that works reliably inside a 900-component trading platform with real compliance, real failure modes, and real stakeholders.
+---
 
-That intersection — agent engineering with genuine financial services depth — is where I operate.
+## Work & Demos
+I maintain a collection of small demos and reference implementations that exercise the architecture patterns above, focused on reproducibility and safety in realistic environments. If you'd like access to specific examples (PEV pipelines, Splunk-driven diagnosers, meta-controller prototypes), open an issue or contact me and I’ll share the relevant repo paths or example runs.
 
 ---
 
 ## Let's Connect
-
-If you're working on AI agent systems in financial services, intelligent automation in trading or banking environments, or LLM evaluation and production agent deployment — I'd like to connect.
+If you're working on AI agents in financial services, environment automation for trading/banking platforms, or production LLM evaluation and deployment, I'd like to connect.
 
 **LinkedIn:** [Bhavya Mandaliya](https://www.linkedin.com/in/bhavya-mandaliya/)
 **GitHub:** [@AutoQAce](https://github.com/AutoQAce)
+
+---
+
+<footer align="center">Built with practical agent engineering and a focus on reliability and governance.</footer>
